@@ -1,0 +1,54 @@
+body {
+    color: #000000; /* Цвет основного текста */ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #000000;
+    background-image: url(Res/tun_main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 24px; /* Размер шрифта в пунктах */
+    font-family: monospace; /* Семейство шрифтов */
+}
+
+h2 {
+    font-family: Arial;
+    color: black;
+}
+
+a {
+    font-family: monospace;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.banner a {
+    padding: 5px 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.banner {
+    text-align: center;
+}
+
+.banner a:hover {
+    color: red;
+}
+
+.banner h1 {
+    text-align: center;
+}
+
+.main_text {
+    color: rgb(255, 255, 255);
+    margin-right: 100px;
+    margin-top: 200px;
+    text-align-last: right;
+    font-size: 3vw;
+}
