@@ -4,7 +4,7 @@ body {
     padding: 0;
     border: 0;
     background-color: #000000;
-    background-image: url(Res/tun_main.png);
+    background-image: url(../Res/tun_main.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -51,4 +51,22 @@ a {
     margin-top: 200px;
     text-align-last: right;
     font-size: 3vw;
+}
+
+@keyframes color-change {
+    0% {
+      color: rgb(255, 255, 255);
+    }
+  
+    50% {
+      color: red;
+    }
+  
+    100% {
+      color: blue;
+    }
+}
+
+a:hover {
+    animation: color-change 3s infinite;
 }
